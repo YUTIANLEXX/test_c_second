@@ -1,6 +1,6 @@
-#include "math.h"
+#include <math.h>
 
-main()
+int main()
 
 {
 
@@ -21,7 +21,7 @@ main()
 			leap = 0; break;
 			}
 
-		if (leap) /*ÄÚÑ­»·½áÊøºó£¬leapÒÀÈ»Îª1£¬ÔòmÊÇËØÊı*/
+		if (leap) /*å†…å¾ªç¯ç»“æŸåï¼Œleapä¾ç„¶ä¸º1ï¼Œåˆ™mæ˜¯ç´ æ•°*/
 
 		{
 			printf("%-4d", m); h++;
@@ -37,5 +37,5 @@ main()
 	}
 
 	printf("\nThe total is %d", h);
-
+return 0;
 }
