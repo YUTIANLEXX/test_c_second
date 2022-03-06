@@ -17,7 +17,7 @@ int main()
 	printf("sum=%d\n", sum);
 	return 0;
 }
-//第二种方法
+// Another way to do it!
 //#include <stdio.h>
 //int main()
 //{
