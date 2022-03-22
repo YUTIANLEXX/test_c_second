@@ -35,3 +35,45 @@ int main()
 	}
 	return 0;
 }
+
+//Another way to do
+//#include <stdio.h>
+//int main()
+//{
+//	int i, j = 0;
+//	int arr[5];
+//	int temp = 0;
+//	printf("为数组元素赋值：\n");
+//
+//	//从键盘为数组元素赋值
+//
+//	for (i = 0; i < 5; i++)
+//	{
+//		printf("a[%d]=", i);
+//		scanf("%d", &arr[i]);
+//	}
+//	//从小到大排序
+//
+//	for (i = 1; i < 5; i++)
+//	{
+//		for (j = 4; j >= i; j--)
+//		{
+//			if (arr[j] <arr[j - 1])          //如果前一个数大于后一个数
+//			{
+//				//交换两个数组元素的值
+//				temp = arr[j - 1];
+//				arr[j - 1] = arr[j];
+//				arr[j] = temp;
+//			}
+//		}
+//	}
+//	for (i = 0; i < 5; i++)
+//	{
+//		printf("%d\t", arr[i]);
+//		if (2 == i)
+//		{
+//			printf("\n");
+//		}
+//	}
+//	return 0;
+//}
