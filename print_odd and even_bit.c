@@ -24,5 +24,4 @@ int main()
 	scanf("%d", &m);
 	print(m);
 	return 0;
-	return 0;
 }
