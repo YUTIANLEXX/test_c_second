@@ -25,3 +25,37 @@ int main()
 	printf("%s\n", arr);
 	return 0;
 }
+
+//Another way to do it
+//#include <stdio.h>
+//#include <string.h>
+//#include <assert.h>
+//void reverse(char* left, char* right)
+//{
+//	assert(left);
+//	assert(right);
+//	while (left < right)
+//	{
+//		int tmp = *left;
+//		*left = *right;
+//		*right = tmp;
+//		left++;
+//		right--;
+//	}
+//}
+//
+//void left_move(char* arr, int k)
+//{
+//	int len = strlen(arr);
+//	assert(k <= len);
+//	reverse(arr, arr + k - 1);
+//	reverse(arr + k, arr + len - 1);
+//	reverse(arr, arr + len - 1);
+//}
+//int main()
+//{
+//	char arr[] = "abcdef";
+//	left_move(arr, 2);
+//	printf("%s\n", arr);
+//	return 0;
+//}
