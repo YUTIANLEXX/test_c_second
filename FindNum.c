@@ -54,7 +54,8 @@ int main()
 //{
 //	int arr[3][3]={{1, 2, 3}, { 4, 5, 6 }, { 7, 8, 9 }};
 //	int k = 7;
-//	int x, y = 3;
+ //   int x = 3;
+	//int y = 3;
 //	int ret = FindNum(arr, k, &x, &y);
 //	if (1 == ret)
 //	{
